@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@webgpu/types": "^0.1.40",
+    "gts": "^5.2.0",
+    "typescript": "^5.3.3"
+  },
+  "name": "jabberwocky",
+  "description": "Jabberwocky website",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "serve": "yarn workspace web serve",
+    "lint": "npx eslint \".\\packages\\web\\src\\*.ts\" --fix",
+    "test": "tsc debug"
+  },
+  "repository": "git+https://github.com/pranitsh/jabberwocky.git",
+  "keywords": [
+    "particle",
+    "effects",
+    "jabberwocky"
+  ],
+  "author": "Pranit Shah",
+  "bugs": {
+    "url": "https://github.com/pranitsh/jabberwocky/issues"
+  },
+  "homepage": "https://github.com/pranitsh/jabberwocky#readme",
+  "workspaces": [
+    "packages/web"
+  ],
+  "main": ""
+}

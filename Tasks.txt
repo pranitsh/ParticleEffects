@@ -1,0 +1,17 @@
+Tasks
+
+Learn about potential useful functions
+Setup interfaces and functions
+Learn specific knowledge and try challenges
+
+Potentially useful interfaces and functions:
+- VertexInput/VertexOutput
+- Command encoder function with an interface
+  - Command encoder function
+    - Loops over provided array of interfaces, performing proper setup
+  - Interface
+    - Pipeline
+    - Texture
+    - Vertix count
+    - Render pass descriptor
+  - This might relie on other things, but we'll get there when we need to.
