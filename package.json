@@ -23,6 +23,7 @@
   "bugs": {
     "url": "https://github.com/pranitsh/jabberwocky/issues"
   },
+  "license": "SEE LICENSE IN <LICENSE.txt>",
   "homepage": "https://github.com/pranitsh/jabberwocky#readme",
   "workspaces": [
     "packages/web"

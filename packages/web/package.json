@@ -5,6 +5,7 @@
   "main": "index.ts",
   "author": "Pranit Shah",
   "private": true,
+  "license": "SEE LICENSE IN <LICENSE.txt>",
   "scripts": {
     "serve": "webpack-dev-server --config .\\webpack.config.js --mode development",
     "build": "yarn workspace web webpack --mode production -o ../../build",
