@@ -202,7 +202,7 @@ export default class Renderer {
     totalParticles: number,
     shader: string
   ): Promise<ParticleGroup> {
-    const bufferSize = totalParticles * 4 * 4
+    const bufferSize = totalParticles * 4 * 9
     const buffer: GPUBuffer = device.createBuffer({
       size: bufferSize,
       usage: GPUBufferUsage.STORAGE,

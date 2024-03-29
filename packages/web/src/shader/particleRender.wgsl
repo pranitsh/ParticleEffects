@@ -30,7 +30,6 @@ fn vertex_main(
 
 @fragment
 fn fragment_main(input: VertexOutput) -> @location(0) vec4<f32> {
-  // You can use the color and direction to determine the color of the particle
-  var alpha: f32 = 0.0 - length(input.direction);
+  var alpha: f32 = 1.0 - length(input.direction);
   return vec4<f32>(input.color, alpha);
 }

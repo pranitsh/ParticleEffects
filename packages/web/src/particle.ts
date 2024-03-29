@@ -1,6 +1,6 @@
 import Renderer from './renderer'
 import renderS from './shader/particleRender.wgsl'
-import computeS from './shader/jaggedCompute.wgsl'
+import computeS from './shader/newCompute.wgsl'
 
 interface Options {
   initialCount: number
@@ -12,8 +12,8 @@ interface Options {
 const TEST: Options = {
   renderShader: renderS,
   computeShader: computeS,
-  initialCount: 100,
-  particleCount: 1000
+  initialCount: 10,
+  particleCount: 100
 }
 
 export default class Particle {
