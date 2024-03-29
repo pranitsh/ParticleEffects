@@ -1,18 +1,17 @@
 {
   "devDependencies": {
     "@webgpu/types": "^0.1.40",
-    "gts": "^5.2.0",
     "typescript": "^5.3.3"
   },
-  "name": "jabberwocky",
-  "description": "Jabberwocky website",
+  "name": "particle_effects",
+  "description": "A website proposal regarding particle effects.",
   "version": "0.0.1",
   "private": true,
   "dependencies": {},
   "scripts": {
     "serve": "yarn workspace web serve",
-    "lint": "npx eslint \".\\packages\\web\\src\\*.ts\" --fix",
-    "test": "tsc debug"
+    "build": "yarn workspace web build",
+    "lint": "npx eslint \".\\packages\\web\\src\\*.ts\" --fix"
   },
   "repository": "git+https://github.com/pranitsh/jabberwocky.git",
   "keywords": [

@@ -7,6 +7,7 @@
   "private": true,
   "scripts": {
     "serve": "webpack-dev-server --config .\\webpack.config.js --mode development",
+    "build": "yarn workspace web webpack --mode production -o ../../build",
     "lint": "npx eslint /src/*"
   },
   "devDependencies": {
@@ -15,7 +16,7 @@
     "@webgpu/types": "^0.1.40",
     "css-loader": "^6.10.0",
     "eslint": "^8.0.1",
-    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-config-love": "^43.1.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
@@ -26,9 +27,8 @@
     "typescript": "*",
     "webpack": "^5.90.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^4.15.1",
     "mini-css-extract-plugin": "^2.8.0"
-  }
+  },
+  "dependencies": {}
 }
