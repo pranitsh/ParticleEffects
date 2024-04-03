@@ -11,7 +11,7 @@
     "serve": "yarn workspace web serve",
     "build": "yarn workspace web build",
     "compile": "yarn workspace web compile",
-    "lint": "npx eslint \".\\packages\\web\\src\\*.ts\" --fix"
+    "lint": "npx eslint \"packages/web/src/*.ts\" --fix"
   },
   "repository": "git+https://github.com/pranitsh/jabberwocky.git",
   "keywords": [
