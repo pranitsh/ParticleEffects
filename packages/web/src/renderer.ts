@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2024 Pranit Shah
+ * All rights reserved.
+ */
 enum BACKEND {
   webGPU,
   webGL,

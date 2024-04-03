@@ -1,7 +1,9 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* This will hide the scrollbar */
+  overflow: hidden;
+  /* This will hide the scrollbar */
 }
 
 canvas {
